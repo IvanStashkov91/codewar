@@ -15,5 +15,6 @@ def delete_dir():
         dir_name = f'dir_{i}'
         os.rmdir(dir_name)
 
-create_dir()
-delete_dir()
+if __name__ == '__main__':
+    create_dir()
+    delete_dir()

@@ -9,4 +9,7 @@ def random_item_list(list):
     if list:
         return random.choice(list)
 
-print(random_item_list([1, 2, 3, 4, 5]))
+
+
+if __name__ == '__main__':
+    print(random_item_list([1, 2, 3, 4, 5]))
